@@ -1,15 +1,64 @@
 body {
+  background: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  background: rgb(171, 195, 219);
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 60px auto;
+  box-shadow: 5px 2px 13px rgba(0, 0, 0, 0.2);
+}
+h1,
+form,
+footer {
   text-align: center;
 }
 
 h1 {
+  font-size: 55px;
+  margin: 20px 0 0 0;
 }
 
-form {
+select {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  margin: 30px 0 20px 0;
 }
 
-.cityList {
+.city {
+  background: rgb(226, 240, 255);
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 20px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.date {
+  color: rgb(78, 87, 129);
+}
+.time {
+  font-size: 50px;
+  font-weight: bold;
 }
 
 footer {
+  color: gray;
+  font-size: 13px;
+}
+
+a {
+  color: rosybrown;
 }
