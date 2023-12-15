@@ -41,7 +41,8 @@ function cityTime(event) {
                       "H:mm:ss"
                     )} <small>${cityDate.format("A")}</small>
                     </div>
-                </div>`;
+                </div>
+                <a href = "/" class = "home"> Home </a>`;
 }
 
 updateDateTime();

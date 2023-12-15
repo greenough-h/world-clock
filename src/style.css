@@ -65,5 +65,9 @@ footer {
 }
 
 a {
-  color: rosybrown;
+  color: rgb(34, 64, 105);
+}
+
+.home {
+  padding-left: 45%;
 }
