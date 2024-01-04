@@ -12,6 +12,7 @@ body {
   margin: 60px auto;
   box-shadow: 5px 2px 13px rgba(0, 0, 0, 0.2);
 }
+
 h1,
 form,
 footer {
@@ -70,4 +71,20 @@ a {
 
 .home {
   padding-left: 45%;
+}
+
+@media (max-width: 576px) {
+  .city {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .date {
+    margin-bottom: 20px;
+  }
 }
